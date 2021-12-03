@@ -1,0 +1,17 @@
+.navbar a {
+	font-size: 20 px;
+	font-family: 'Outfit', sans-serif;
+	text-decoration-line: none;
+	width: 132px;
+	background: grey;
+	padding: 12px 32px;
+	background-position: center;
+	background-size: cover;
+	border-radius: 6px;
+	color: whitesmoke;
+	text-align: center;
+}
+.navbar a:hover {
+	background: blanchedalmond;
+	color: black;
+ }

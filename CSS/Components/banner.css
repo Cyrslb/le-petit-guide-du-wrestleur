@@ -1,0 +1,14 @@
+.banner{
+	background-image: url(../../Images/Banner.jpg);
+	background-position: 45% 25%;;
+	background-size: cover;
+	padding:  150px 0px;
+	border-radius: 26px;
+}
+
+.banner p{
+	font-size: 45px;
+	padding-top: 400px;
+	font-family: 'Bangers', sans-serif;
+	color: lightpink;
+}

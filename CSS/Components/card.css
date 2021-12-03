@@ -1,0 +1,35 @@
+.card p {
+	font-family: 'Outfit', sans-serif;
+	color: blanchedalmond;
+	font-size: x-large;
+}
+.card p: hover {
+	color: black;
+}
+
+.card {
+	
+	border-radius: 10 px;
+    background: linear-gradient(270deg, #246655, #55a590, #7fa399, #293e38, #293e38);
+    background-size: 1000% 1000%;
+
+    -webkit-animation: AnimationName 30s ease infinite;
+    -moz-animation: AnimationName 30s ease infinite;
+    animation: AnimationName 30s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
